@@ -1,0 +1,35 @@
+{
+  "name": "jmeter-to-k6",
+  "description": "Converts JMeter .jmx files to k6 script code",
+  "version": "0.0.1",
+  "author": "denim2x <denim2x@cyberdude.com>",
+  "license": "Apache",
+  "keywords": [
+    "k6",
+    "loadtest",
+    "jmx",
+    "jmeter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loadimpact/jmeter-to-k6.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "jmeter-to-k6": "bin/jmeter-to-k6.js"
+  },
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jscs": "1.13.1",
+    "jshint": "2.8.0"
+  },
+  "dependencies": {
+    "commander": "2.9.0"
+  }
+}
